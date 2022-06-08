@@ -1,5 +1,5 @@
 /**
- * Node-JS Boilerplate
+ * Mikrotik
  * @author Yousuf Kalim
  */
 require("dotenv").config();
