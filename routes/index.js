@@ -8,6 +8,7 @@ const router = require("express").Router();
 router.use("/admins", require("./admins")); // All the user routes
 router.use("/users", require("./users")); // All the user routes
 router.use("/auth", require("./auth")); // All the auth routes
+router.use("/mikrotik", require("./mikrotik"));
 
 // Export
 module.exports = router;
