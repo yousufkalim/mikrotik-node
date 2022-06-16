@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const { connection } = require("../controllers/mikrotik");
+require("../controllers/mikrotik");
 
 // Admin Register
-router.get("/connection", connection);
+// router.get("/connection", connection);
 
 module.exports = router;
